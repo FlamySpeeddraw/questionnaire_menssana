@@ -1,0 +1,382 @@
+{
+    "Communication":{
+        "n1":{
+            "question":"Je suis à l'aise pour exprimer mes idées ou mes préoccupations à mes coéquipiers.",
+            "points":[1,2,3,4,5]
+        },
+        "n2":{
+            "question":"J'écoute attentivement mes coéquipiers lorsqu'ils s'expriment.",
+            "points":[1,2,3,4,5]
+        },
+        "n3":{
+            "question":"Lorsque je reçois des critiques, je suis capable de les accepter sans me sentir attaqué(e).",
+            "points":[1,2,3,4,5]
+        },
+        "n4":{
+            "question":"Je m’efforce de donner des feedbacks constructifs à mes coéquipiers pour les aider à progresser.",
+            "points":[1,2,3,4,5]
+        },
+        "n5":{
+            "question":"Je suis capable de poser des questions pour clarifier des instructions ou des stratégies.",
+            "points":[1,2,3,4,5]
+        },
+        "n6":{
+            "question":"Je trouve difficile de parler en public ou devant un groupe, même si c'est important pour l'équipe.",
+            "points":[5,4,3,2,1]
+        },
+        "n7":{
+            "question":"Je suis capable de discuter ouvertement des conflits ou des désaccords avec mes coéquipiers ou entraîneurs.",
+            "points":[1,2,3,4,5]
+        },
+        "n8":{
+            "question":"J'utilise un langage positif et motivant lors des échanges avec mes coéquipiers.",
+            "points":[1,2,3,4,5]
+        },
+        "n9":{
+            "question":"Je fais des efforts pour comprendre le point de vue des autres, même lorsque je ne suis pas d'accord.",
+            "points":[1,2,3,4,5]
+        },
+        "n10":{
+            "question":"Je me sens parfois mal compris(e) par mes coéquipiers ou entraîneurs, ce qui me frustre.",
+            "points":[5,4,3,2,1]
+        }
+    },
+    "Concentration":{
+        "n1":{
+            "question":"Je ressasse souvent des erreurs que j’ai commises lors des compétitions précédentes.",
+            "points":[5,4,3,2,1]
+        },
+        "n2":{
+            "question":"Je me sens parfois submergé(e) par des souvenirs de mes performances passées, ce qui affecte ma concentration actuelle.",
+            "points":[5,4,3,2,1]
+        },
+        "n3":{
+            "question":"Je prends souvent trop de temps à réfléchir à mes performances passées, ce qui m'empêche de me concentrer sur le moment présent.",
+            "points":[5,4,3,2,1]
+        },
+        "n4":{
+            "question":"Pendant l’entraînement ou la compétition, je me sens pleinement engagé(e) et concentré(e) sur ce que je fais.",
+            "points":[1,2,3,4,5]
+        },
+        "n5":{
+            "question":"Je suis capable de bloquer les distractions extérieures lorsque je suis en action.",
+            "points":[1,2,3,4,5]
+        },
+        "n6":{
+            "question":"Je fais régulièrement des exercices de respiration ou de méditation pour renforcer ma concentration sur le moment présent.",
+            "points":[1,2,3,4,5]
+        },
+        "n7":{
+            "question":"Je me préoccupe souvent de mes performances futures, ce qui me distrait de mes entraînements actuels.",
+            "points":[5,4,3,2,1]
+        },
+        "n8":{
+            "question":"Je fixe des objectifs clairs et précis pour l'avenir, ce qui m'aide à me concentrer davantage.",
+            "points":[1,2,3,4,5]
+        },
+        "n9":{
+            "question":"J'ai tendance à m'inquiéter de ce qui pourrait mal se passer lors des prochaines compétitions.",
+            "points":[5,4,3,2,1]
+        },
+        "n10":{
+            "question":"Je planifie des stratégies pour aborder les prochaines compétitions, ce qui me permet de rester concentré(e) sur mon entraînement.",
+            "points":[1,2,3,4,5]
+        }
+    },
+    "Activation":{
+        "n1":{
+            "question":"Te sens-tu énergique et prêt(e) à donner le meilleur de toi-même avant la compétition ?",
+            "points":[1,2,3,4,5]
+        },
+        "n2":{
+            "question":"Ressens-tu une légère tension ou excitation avant l’effort physique ?",
+            "points":[1,2,3,4,5]
+        },
+        "n3":{
+            "question":"As-tu l'impression d'être concentré(e) sur ce que tu dois accomplir aujourd'hui ?",
+            "points":[1,2,3,4,5]
+        },
+        "n4":{
+            "question":"Te sens-tu calme et confiant(e) quant à ta capacité à gérer l’effort à venir ?",
+            "points":[1,2,3,4,5]
+        },
+        "n5":{
+            "question":"Est-ce que tu ressens de la nervosité ou de l’anxiété avant de commencer ?",
+            "points":[5,4,3,2,1]
+        },
+        "n6":{
+            "question":"Ton corps est-il réactif et prêt à bouger rapidement, sans fatigue excessive ?",
+            "points":[1,2,3,4,5]
+        },
+        "n7":{
+            "question":"Te sens-tu mentalement éveillé(e) et clair(e) dans ta réflexion avant la compétition ?",
+            "points":[1,2,3,4,5]
+        },
+        "n8":{
+            "question":"Ressens-tu que ton rythme cardiaque est légèrement accéléré, sans te sentir trop essoufflé(e) ?",
+            "points":[1,2,3,4,5]
+        },
+        "n9":{
+            "question":"Te sens-tu impatient(e) ou excité(e) à l'idée de commencer ?",
+            "points":[1,2,3,4,5]
+        },
+        "n10":{
+            "question":"Ressens-tu un bon équilibre entre l'envie d'agir et le contrôle de tes émotions ?",
+            "points":[1,2,3,4,5]
+        }
+    },
+    "Stress":{
+        "n1":{
+            "question":"Avant une compétition ou un entraînement important, je ressens une montée de tension physique (accélération du rythme cardiaque, transpiration, etc.).",
+            "points":[1,2,3,4,5]
+        },
+        "n2":{
+            "question":"Je ressens souvent une pression intense à devoir bien performer, et cela affecte ma concentration.",
+            "points":[1,2,3,4,5]
+        },
+        "n3":{
+            "question":"Je me sens sous pression quand les attentes de mon entraîneur ou de mes coéquipiers sont élevées.",
+            "points":[1,2,3,4,5]
+        },
+        "n4":{
+            "question":"Juste avant de commencer une compétition, je ressens un niveau de tension que j'ai du mal à gérer.",
+            "points":[1,2,3,4,5]
+        },
+        "n5":{
+            "question":"Pendant un match ou une compétition difficile, je ressens une fatigue ou une perte d’énergie à cause de la pression.",
+            "points":[1,2,3,4,5]
+        }
+    },
+    "Anxiété":{
+        "n1":{
+            "question":"Je me fais souvent du souci à l’avance pour des compétitions ou des situations sportives qui ne se dérouleront que dans plusieurs jours.",
+            "points":[1,2,3,4,5]
+        },
+        "n2":{
+            "question":"Même lorsque je ne suis pas en compétition, j’ai tendance à m'inquiéter de ma performance future.",
+            "points":[1,2,3,4,5]
+        },
+        "n3":{
+            "question":"J'ai souvent peur de décevoir les autres ou de ne pas être à la hauteur, même si la compétition n’a pas encore commencé.",
+            "points":[1,2,3,4,5]
+        },
+        "n4":{
+            "question":"Il m'arrive fréquemment de repenser aux erreurs que j'ai faites dans le passé et d'avoir peur de les reproduire.",
+            "points":[1,2,3,4,5]
+        },
+        "n5":{
+            "question":"En général, je me sens souvent anxieux(se) à propos de ma carrière sportive, même sans compétition imminente.",
+            "points":[1,2,3,4,5]
+        }
+    },
+    "Confiance":{
+        "n1":{
+            "question":"J'ai souvent des doutes sur mes capacités à cause d'échecs ou de mauvaises performances passées.",
+            "points":[5,4,3,2,1]
+        },
+        "n2":{
+            "question":"Je me remémore fréquemment mes réussites passées pour me donner du courage lors des compétitions.",
+            "points":[1,2,3,4,5]
+        },
+        "n3":{
+            "question":"Les erreurs que j'ai commises par le passé me font souvent perdre confiance en moi dans des situations similaires.",
+            "points":[5,4,3,2,1]
+        },
+        "n4":{
+            "question":"Je me sens sûr(e) de mes compétences pendant les entraînements ou les compétitions.",
+            "points":[1,2,3,4,5]
+        },
+        "n5":{
+            "question":"Je me concentre pleinement sur ce que je fais sans douter de mes capacités.",
+            "points":[1,2,3,4,5]
+        },
+        "n6":{
+            "question":"Lorsque je rencontre des difficultés pendant une compétition, je me fais confiance pour m’adapter et réagir efficacement.",
+            "points":[1,2,3,4,5]
+        },
+        "n7":{
+            "question":"Je suis confiant(e) quant à mes chances de réussir mes futures compétitions.",
+            "points":[1,2,3,4,5]
+        },
+        "n8":{
+            "question":"Je m'inquiète fréquemment de ne pas être à la hauteur lors des prochains événements sportifs.",
+            "points":[5,4,3,2,1]
+        },
+        "n9":{
+            "question":"Je crois en mes capacités à atteindre mes objectifs à long terme dans ma carrière sportive.",
+            "points":[1,2,3,4,5]
+        },
+        "n10":{
+            "question":"Je me prépare mentalement à réussir mes compétitions à venir et cela renforce ma confiance.",
+            "points":[1,2,3,4,5]
+        }
+    },
+    "Motivation":{
+        "n1":{
+            "question":"Mes expériences passées en sport ( échecs) influencent mon niveau de motivation actuel.",
+            "points":[5,4,3,2,1]
+        },
+        "n2":{
+            "question":"Lorsque je repense à mes anciens objectifs atteints, cela me motive pour en fixer de nouveaux.",
+            "points":[1,2,3,4,5]
+        },
+        "n3":{
+            "question":"Les moments où j’ai abandonné ou échoué par le passé affectent ma motivation aujourd'hui.",
+            "points":[5,4,3,2,1]
+        },
+        "n4":{
+            "question":"Je me sens motivé(e) chaque jour pour m’entraîner et donner le meilleur de moi-même.",
+            "points":[1,2,3,4,5]
+        },
+        "n5":{
+            "question":"Je reste motivé(e) même lorsque je rencontre des difficultés pendant mes entraînements ou compétitions.",
+            "points":[1,2,3,4,5]
+        },
+        "n6":{
+            "question":"Je trouve du plaisir et de la satisfaction dans chaque session d'entraînement, indépendamment des résultats.",
+            "points":[1,2,3,4,5]
+        },
+        "n7":{
+            "question":"Je suis motivé(e) à l’idée d’atteindre mes objectifs futurs et de repousser mes limites.",
+            "points":[1,2,3,4,5]
+        },
+        "n8":{
+            "question":"Je me sens démotivé(e) lorsque je pense aux efforts nécessaires pour réussir à long terme.",
+            "points":[5,4,3,2,1]
+        },
+        "n9":{
+            "question":"Je me fixe des objectifs précis et ambitieux pour maintenir ma motivation dans le temps.",
+            "points":[1,2,3,4,5]
+        },
+        "n10":{
+            "question":"Les récompenses ou la reconnaissance extérieure (médailles, titres) sont une source importante de motivation pour moi.",
+            "points":[1,2,3,4,5]
+        }
+    },
+    "Emotions":{
+        "n1":{
+            "question":"Ressens-tu régulièrement de la frustration ou de la colère pendant tes entraînements ou tes compétitions ?",
+            "points":[1,2,3,4,5]
+        },
+        "n2":{
+            "question":"As-tu du mal à te concentrer lorsque tu es stressé(e) par un enjeu important ?",
+            "points":[1,2,3,4,5]
+        },
+        "n3":{
+            "question":"Quand tu fais face à un échec ou à une mauvaise performance, ressens-tu des difficultés à retrouver ton calme rapidement ?",
+            "points":[1,2,3,4,5]
+        },
+        "n4":{
+            "question":"Pendant une compétition, ressens-tu des moments où tes émotions prennent le dessus et affectent négativement ta performance ?",
+            "points":[1,2,3,4,5]
+        },
+        "n5":{
+            "question":"As-tu tendance à ressasser les erreurs que tu fais pendant une compétition, ce qui perturbe la suite de ta performance ?",
+            "points":[1,2,3,4,5]
+        },
+        "n6":{
+            "question":"Quand tu es sous pression, as-tu des pensées négatives qui viennent perturber ta confiance en toi ?",
+            "points":[1,2,3,4,5]
+        },
+        "n7":{
+            "question":"As-tu du mal à gérer tes émotions (stress, anxiété, frustration) avant une compétition importante ?",
+            "points":[1,2,3,4,5]
+        },
+        "n8":{
+            "question":"Ton humeur hors du terrain affecte-t-elle souvent tes performances sportives ?",
+            "points":[1,2,3,4,5]
+        },
+        "n9":{
+            "question":"Quand tu es en situation d’échec ou de difficulté, as-tu du mal à adapter ton comportement pour rester positif et combatif ?",
+            "points":[1,2,3,4,5]
+        },
+        "n10":{
+            "question":"As-tu l’impression que tes émotions influencent la qualité de tes relations avec tes coéquipiers ou entraîneurs lors des compétitions ?",
+            "points":[1,2,3,4,5]
+        }
+    },
+    "Estime de soi":{
+        "n1":{
+            "question":"Je me sens généralement compétent(e) dans mon sport.",
+            "points":[1,2,3,4,5]
+        },
+        "n2":{
+            "question":"J’ai confiance en mes capacités à surmonter les défis que je rencontre dans mon sport.",
+            "points":[1,2,3,4,5]
+        },
+        "n3":{
+            "question":"Je me sens fier(ère) de mes accomplissements, même si ce sont de petites victoires.",
+            "points":[1,2,3,4,5]
+        },
+        "n4":{
+            "question":"Je me compare souvent aux autres et je me sens inférieur(e) ou moins capable.",
+            "points":[5,4,3,2,1]
+        },
+        "n5":{
+            "question":"J’accepte mes erreurs et mes échecs, et je les utilise pour progresser.",
+            "points":[1,2,3,4,5]
+        },
+        "n6":{
+            "question":"Je pense que je mérite le respect et la reconnaissance de mes coéquipiers et/ou de mon entraîneur.",
+            "points":[1,2,3,4,5]
+        },
+        "n7":{
+            "question":"Je suis capable de maintenir un bon niveau de confiance, même après une mauvaise performance.",
+            "points":[1,2,3,4,5]
+        },
+        "n8":{
+            "question":"Je me sens à la hauteur des attentes que je me fixe dans mon sport.",
+            "points":[1,2,3,4,5]
+        },
+        "n9":{
+            "question":"Je crois que je peux accomplir de grandes choses dans mon sport si je continue à m’entraîner et à m'améliorer.",
+            "points":[1,2,3,4,5]
+        },
+        "n10":{
+            "question":"J'ai souvent l'impression que je ne mérite pas les compliments ou les réussites que j'obtiens dans mon sport.",
+            "points":[5,4,3,2,1]
+        }
+    },
+    "Energie":{
+        "n1":{
+            "question":"J'ai l'impression que mes performances passées ont parfois été limitées par un manque d'énergie.",
+            "points":[5,4,3,2,1]
+        },
+        "n2":{
+            "question":"Lorsque je repense à des moments où j'étais en pleine forme, cela m'aide à me motiver et à générer de l'énergie.",
+            "points":[1,2,3,4,5]
+        },
+        "n3":{
+            "question":"Je me suis souvent senti(e) épuisé(e) après des compétitions ou des entraînements intenses.",
+            "points":[5,4,3,2,1]
+        },
+        "n4":{
+            "question":"Je me sens énergique et plein(e) de vitalité pendant mes entraînements actuels.",
+            "points":[1,2,3,4,5]
+        },
+        "n5":{
+            "question":"J'ai souvent besoin de faire des pauses ou de réduire l’intensité des exercices à cause d’un manque d’énergie.",
+            "points":[5,4,3,2,1]
+        },
+        "n6":{
+            "question":"Je parviens à maintenir un bon niveau d’énergie tout au long de la journée, même en dehors des entraînements.",
+            "points":[1,2,3,4,5]
+        },
+        "n7":{
+            "question":"Je me sens confiant(e) quant à ma capacité à maintenir un bon niveau d’énergie dans les compétitions à venir.",
+            "points":[1,2,3,4,5]
+        },
+        "n8":{
+            "question":"Je m'inquiète souvent de ne pas avoir assez d’énergie pour atteindre mes objectifs sportifs à long terme.",
+            "points":[5,4,3,2,1]
+        },
+        "n9":{
+            "question":"J'ai mis en place des stratégies pour gérer mon énergie et éviter l'épuisement à l’avenir.",
+            "points":[1,2,3,4,5]
+        },
+        "n10":{
+            "question":"Je planifie mes périodes de récupération pour maintenir un bon niveau d'énergie sur le long terme.",
+            "points":[1,2,3,4,5]
+        }
+    }
+}
