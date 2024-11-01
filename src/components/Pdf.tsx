@@ -75,7 +75,6 @@ const Pdf = ({points}:pdfProps) => {
             <p>Ton niveau : {commKey !== '' ? JSON.parse(JSON.stringify(result))["Communication"][commKey]["Titre"] : ''}</p>
             <p style={{marginTop:'40px'}}>{commKey !== '' ? JSON.parse(JSON.stringify(result))["Communication"][commKey]["Description"] : ''}</p>
         </div>
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         <div className='pdf_subjects'>
             <h1 className='pdf_titre'>Concentration</h1>
             <div className='pdf_roledefcontainer'>
@@ -140,6 +139,7 @@ const Pdf = ({points}:pdfProps) => {
             <p>Ton niveau : {confKey !== '' ? JSON.parse(JSON.stringify(result))["Confiance"][confKey]["Titre"] : ''}</p>
             <p style={{marginTop:'40px'}}>{confKey !== '' ? JSON.parse(JSON.stringify(result))["Confiance"][confKey]["Description"] : ''}</p>
         </div>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         <div className='pdf_subjects'>
             <h1 className='pdf_titre'>Motivation</h1>
             <div className='pdf_roledefcontainer'>
@@ -155,7 +155,6 @@ const Pdf = ({points}:pdfProps) => {
             <p>Ton niveau : {motKey !== '' ? JSON.parse(JSON.stringify(result))["Motivation"][motKey]["Titre"] : ''}</p>
             <p style={{marginTop:'40px'}}>{motKey !== '' ? JSON.parse(JSON.stringify(result))["Motivation"][motKey]["Description"] : ''}</p>
         </div>
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         <div className='pdf_subjects'>
             <h1 className='pdf_titre'>Emotions</h1>
             <div className='pdf_roledefcontainer'>

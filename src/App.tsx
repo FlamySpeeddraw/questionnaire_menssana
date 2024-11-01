@@ -15,6 +15,7 @@ function App() {
   const [subject,setSubject] = useState(0);
   const [points,setPoints] = useState([[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]);
   const [progress,setProgress] = useState(0);
+  const [generating,setGenerating] = useState(false);
   
   const handleNextSubject = () => {
     if (subject < 9) {
@@ -32,6 +33,9 @@ function App() {
           behavior:'smooth',
           block:'center'
         });
+        if(subject === 8) {
+          setGenerating(true);
+        }
       }
     } else {
       if (!points[subject].includes(-1)) {
@@ -53,8 +57,6 @@ function App() {
       block:'center'
     });
   }
-
-  console.log(subject)
   
   return (
     <div className='app_container'>
@@ -64,7 +66,7 @@ function App() {
         <Question id={''+index} handleUpdatePoints={handleUpdatePoints} titre={question.question} indexQuestion={index} key={section[subject]+index} />
       ))}
       <div className='app_bouton' onClick={() => handleNextSubject()}>{subject >= 9 ? "Télécharger les résultats" : "Suivant"}</div>
-      <div style={{backgroundColor:'#2aa089'}} ref={targetRef}>
+      <div style={{backgroundColor:'#2aa089',display:`${generating ? 'flex' : 'none'}`}} ref={targetRef}>
         <Pdf points={[...points]} />
       </div>
     </div>
