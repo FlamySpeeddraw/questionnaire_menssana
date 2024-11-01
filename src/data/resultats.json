@@ -50,29 +50,29 @@
         "Définition":"Le stress et l'anxiété, en lien avec la préparation mentale, sont des réactions psychologiques et physiologiques que les individus éprouvent face à des situations perçues comme exigeantes, menaçantes ou incertaines. Ces deux émotions, bien que similaires, ont des nuances distinctes. Le stress est souvent une réponse directe à une situation spécifique (examen, compétition), tandis que l'anxiété est une inquiétude plus diffuse, parfois liée à l’anticipation d’événements futurs ou d’incertitudes.\nDans le cadre de la préparation mentale, la gestion du stress et de l’anxiété est essentielle pour permettre aux individus de maintenir leur concentration, leur calme, et leur efficacité dans les moments critiques.",
         "Rôle":"la gestion du stress et de l’anxiété est essentielle pour permettre aux individus de maintenir leur concentration, leur calme, et leur efficacité dans les moments critiques.",
         "Stress":{
-            "10-20":{
+            "5-10":{
                 "Titre":"Faible niveau de stress",
                 "Description":"L’athlète gère bien la pression liée aux situations immédiates, mais pourrait avoir besoin de plus de stimulation dans des situations de grande compétition."
             },
-            "21-35":{
+            "11-17":{
                 "Titre":"Niveau de stress modéré",
                 "Description":"L’athlète ressent du stress dans les situations de pression, mais arrive à le gérer dans une certaine mesure. Il est possible d'améliorer la gestion de ce stress pour éviter que cela ne nuise à la performance."
             },
-            "36-50":{
+            "18-25":{
                 "Titre":"Niveau de stress élevé",
                 "Description":"L’athlète subit une pression importante et a du mal à la gérer. Cela peut affecter la concentration, l’énergie et les performances. Il est nécessaire de travailler activement sur des stratégies de gestion du stress."
             }
         },
         "Anxiété":{
-            "10-20":{
+            "5-10":{
                 "Titre":"Faible niveau d'anxiété",
                 "Description":"L'athlète est détendu(e) et ne souffre pas d'inquiétudes persistantes concernant sa performance future ou passée. Cela indique une bonne gestion mentale."
             },
-            "21-35":{
+            "11-17":{
                 "Titre":"Niveau d'anxiété modéré",
                 "Description":"L’athlète présente des inquiétudes régulières, mais ces dernières ne l’envahissent pas totalement. Il est toutefois important de les surveiller pour éviter qu'elles ne deviennent handicapantes."
             },
-            "36-50":{
+            "18-25":{
                 "Titre":"Niveau d'anxiété élevé",
                 "Description":"L'athlète est souvent anxieux(se), même en dehors des moments de compétition. Cela peut causer de la fatigue mentale, de la perte de confiance et un impact négatif sur la motivation. Il est nécessaire de mettre en place un programme pour réduire cette anxiété."
             }

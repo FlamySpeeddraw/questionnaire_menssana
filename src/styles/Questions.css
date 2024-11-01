@@ -1,0 +1,18 @@
+.questions_container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid rgba(118, 118, 118, 0.508) 1px;
+    width: 70%;
+    justify-self: center;
+}
+
+.questions_titre {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    align-self: center;
+    color: #555e66;
+    text-align: center;
+    font-family: "Century gothic bold";
+    font-size: 24px;
+}

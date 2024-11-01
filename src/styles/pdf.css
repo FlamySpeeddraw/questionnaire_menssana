@@ -1,0 +1,43 @@
+.pdf_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Century gothic bold';
+    margin: 0 40px;
+}
+
+.pdf_titre {
+    text-decoration: underline;
+    color: white;
+    margin: 40px 0;
+}
+
+.pdf_intro {
+    margin: 0 40px;
+    color: white;
+    line-height: 25px;
+}
+
+.pdf_image {
+    margin: 40px;
+}
+
+.pdf_roledefcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.pdf_roledefcontainer > div {
+    width: 40%;
+    margin: 40px;
+    line-height: 20px;
+    color:white
+}
+
+.pdf_subjects {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}

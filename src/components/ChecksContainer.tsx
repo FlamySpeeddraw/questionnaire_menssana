@@ -1,17 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CheckCircle from './CheckCircle';
-import "./../styles/ChecksContainer.css"
+import "./../styles/ChecksContainer.css";
 
-export const ChecksContainer = () => {
+interface checksContainerProps {
+  updatePoints:(points:number) => void
+}
+
+export const ChecksContainer = ({updatePoints}:checksContainerProps) => {
+  const [reponse,setReponse] = useState(-1);
+
+  const handleChangeResponse = (numero:number) => {
+    setReponse(numero);
+    updatePoints(numero);
+  }
+
   return (
     <div className='checkscircle_container'>
-      <p>Toujours</p>
-      <CheckCircle color={'red'} size={45} points={0} checked={false} />
-      <CheckCircle color={'red'} size={35} points={0} checked={false} />
-      <CheckCircle color={'red'} size={25} points={0} checked={false} />
-      <CheckCircle color={'red'} size={35} points={0} checked={false} />
-      <CheckCircle color={'red'} size={45} points={0} checked={false} />
-      <p>Jamais</p>
+      <p className='checkscircle_bornes' id='toujours'>Toujours</p>
+      <CheckCircle handleChangeReponse={handleChangeResponse} color={'#68b14c'} size={60} numero={0} checked={reponse === 0 ? true : false} />
+      <CheckCircle handleChangeReponse={handleChangeResponse} color={'#68b14c'} size={50} numero={1} checked={reponse === 1 ? true : false} />
+      <CheckCircle handleChangeReponse={handleChangeResponse} color={'#979d95'} size={40} numero={2} checked={reponse === 2 ? true : false} />
+      <CheckCircle handleChangeReponse={handleChangeResponse} color={'#cb554f'} size={50} numero={3} checked={reponse === 3 ? true : false} />
+      <CheckCircle handleChangeReponse={handleChangeResponse} color={'#cb554f'} size={60} numero={4} checked={reponse === 4 ? true : false} />
+      <p className='checkscircle_bornes' id='jamais'>Jamais</p>
     </div>
   );
 }

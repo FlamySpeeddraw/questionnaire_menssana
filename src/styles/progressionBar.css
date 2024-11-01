@@ -1,0 +1,35 @@
+.progressionBar_container {
+    margin-top: 35px;
+    position: sticky;
+    display: flex;
+    width: 65%;
+    top: 20px;
+    height: fit-content;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.823);
+}
+
+.progressionBar_container > p {
+    color: rgb(117, 117, 117);
+    font-family: 'Century gothic bold';
+    font-size: 20px;
+    min-width: fit-content;
+    margin-right: 20px;
+}
+
+.progressionBar_bar {
+    display: flex;
+    align-self: center;
+    width: 100%;
+    min-height: 10px;
+    height: 60%;
+    background-color: rgb(202, 202, 202);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.progressionBar_barProgress {
+    transition: all 0.8s ease-in-out;
+    display: flex;
+    background-color: #68b14c;
+}
